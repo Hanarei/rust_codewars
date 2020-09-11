@@ -1,6 +1,6 @@
 fn sort_numbers(arr: &Vec<i32>) -> Vec<i32> {
     let mut res: Vec<i32> = arr.to_vec();
-    res.sort();
+    res.sort_unstable();
     res
     
 }
